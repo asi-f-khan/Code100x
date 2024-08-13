@@ -1,7 +1,17 @@
-# Local Development Setup
-### All Sevices withing Docker
-NOTE: Do not update any of the ENV files for this particular configuration. ( Except the mount path for problems )
-1. Update the ``##YOUR_LOCAL_PATH_TO_PROBLEMS_DIR##`` in the docker-compose file
+# Code100x Local Development Setup
+
+Welcome to Code100x! This guide will help you set up your local development environment.
+
+## Local Development Setup
+
+### All Services within Docker
+
+**Note:** Do not update any of the `.env` files for this configuration, except for the mount path for problems.
+1. **Update Docker Configuration**
+   - Open the `docker-compose.yml` file.
+   - Update `##YOUR_LOCAL_PATH_TO_PROBLEMS_DIR##` with the path to your local problems directory.
+ 
+
 2. Start the services
 ```bash
 docker-compose up -d
